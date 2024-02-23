@@ -1,0 +1,22 @@
+.scrolling-banner-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .scrolling-banner-text {
+    white-space: nowrap;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    animation: scrollBanner 10s linear infinite;
+  }
+  
+  @keyframes scrollBanner {
+    from {
+      right: 100%;
+    }
+    to {
+      left: 100%;
+    }
+  }
