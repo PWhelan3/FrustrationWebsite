@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const MouseAwareButton = () => {
+export const MouseAwareButton = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -48,5 +48,3 @@ const MouseAwareButton = () => {
     </div>
   );
 };
-
-export default MouseAwareButton;

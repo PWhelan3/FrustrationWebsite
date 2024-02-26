@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import styles from "./RandomBtn.module.css";
 
-const RandomMoveButton = () => {
+export const RandomBtn = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
 
   const handleButtonClick = () => {
@@ -22,7 +23,7 @@ const RandomMoveButton = () => {
         left: `${position.x}px`,
         padding: '10px 20px',
         backgroundColor: 'blue',
-        color: 'white',
+        color: 'black',
         border: 'none',
         cursor: 'pointer',
       }}
@@ -31,5 +32,3 @@ const RandomMoveButton = () => {
     </button>
   );
 };
-
-export default RandomMoveButton;

@@ -1,7 +1,7 @@
 import React from 'react';
 import './ScrollingBanner.module.css'; // Import CSS file for styling
 
-const ScrollingBanner = () => {
+export const ScrollingBanner = () => {
   return (
     <div className="scrolling-banner-container">
       <div className="scrolling-banner-text">
@@ -10,5 +10,3 @@ const ScrollingBanner = () => {
     </div>
   );
 };
-
-export default ScrollingBanner;

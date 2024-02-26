@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const AutoResponseTextInput = () => {
+export const TextInput = () => {
   const [userInput, setUserInput] = useState('');
   const [response, setResponse] = useState('');
 
@@ -41,5 +41,3 @@ const AutoResponseTextInput = () => {
     </div>
   );
 };
-
-export default AutoResponseTextInput;
