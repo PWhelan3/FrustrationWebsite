@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import styles from './MouseAwareButton.module.css';
+
+
 
 export const MouseAwareButton = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -26,21 +29,11 @@ export const MouseAwareButton = () => {
   };
 
   return (
-    <div style={{ position: 'relative' }}>
+    <div className={styles.container}>
       {isVisible && (
         <button
           onClick={handleClick}
-          style={{
-            position: 'absolute',
-            top: '50%',
-            left: '50%',
-            transform: 'translate(-50%, -50%)',
-            padding: '10px 20px',
-            backgroundColor: 'blue',
-            color: 'white',
-            border: 'none',
-            cursor: 'pointer',
-          }}
+          className={styles.btn}
         >
           Mouse-aware Button
         </button>
