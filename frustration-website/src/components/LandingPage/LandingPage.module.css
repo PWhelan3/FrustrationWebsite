@@ -1,0 +1,43 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.paragraph {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.form {
+    margin-top: 30px;
+}
+
+.form-input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.form-btn {
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.button {
+    padding: 10px 20px;
+    margin-top: 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.copy-wrapper {
+    margin-top: 50px;
+    border-top: 1px solid black;
+    padding-top: 20px;
+}
+
+.copy-text {
+    font-size: 14px;
+    color: gray;
+}
