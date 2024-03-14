@@ -11,7 +11,7 @@ export const Button = () => {
   };
 
   return (
-    <button className={styles.moveButton} style={{ left: position.x, top: position.y }} onClick={handleClick}>
+    <button className={styles.moveButton} style={{ left: position.x, top: position.y }} onClick={handleClick} onMouseEnter={handleClick}>
       Click Me!
     </button>
   );
