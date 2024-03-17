@@ -2,11 +2,15 @@ import React, { useState } from 'react';
 import styles from './Button1.module.css'; // Importing the CSS file for styling
 
 export const Button1 = () => {
-  const [position, setPosition] = useState({ x: 200, y: 200 });
+  const [position, setPosition] = useState({ x: 700, y: 800 });
 
   const handleClick = () => {
-    const randomX = Math.floor(Math.random() * window.innerWidth);
-    const randomY = Math.floor(Math.random() * window.innerHeight);
+    const maxX = window.innerWidth - 200;
+    const maxY = window.innerHeight -200;
+
+    const randomX = Math.floor(Math.random() * maxX);
+    const randomY = Math.floor(Math.random() * maxY);
+
     setPosition({ x: randomX, y: randomY });
   };
 

@@ -1,17 +1,18 @@
 .moveButton {
-    position: absolute;
-    background-color: #ffcc00; /* Yellow */
-    border: none;
-    color: #000000; /* Black */
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-  }
+  position: absolute;
+  background-color: #d3d2d0; /* Yellow */
+  border: 1px solid black;
+  color: #000000; /* Black */
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 2px 2px 1px 1px rgb(44, 44, 44);
+}
 
-  .moveButton:hover {
-    background-color: #ffff00; /* Bright Yellow */
-  }
+.moveButton:hover {
+  background-color: #ffd000; /* Bright Yellow */
+}
 

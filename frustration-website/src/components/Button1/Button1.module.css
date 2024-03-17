@@ -1,7 +1,7 @@
 .moveButton {
     position: absolute;
-    background-color: #ffcc00; /* Yellow */
-    border: none;
+    background-color: #d3d2d0; /* Yellow */
+    border: 1px solid black;
     color: #000000; /* Black */
     padding: 10px 20px;
     text-align: center;
@@ -9,9 +9,10 @@
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
+    box-shadow: 2px 2px 1px 1px rgb(44, 44, 44);
   }
 
   .moveButton:hover {
-    background-color: #ffff00; /* Bright Yellow */
+    background-color: #ffd000; /* Bright Yellow */
   }
 
